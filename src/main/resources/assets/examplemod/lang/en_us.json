@@ -1,0 +1,8 @@
+{
+  "item.examplemod.structuregel": "Structure Gel",
+  "block.examplemod.castlewall": "Castle Wall",
+  "item.examplemod.testitem": "Test Item",
+  "enchantment.examplemod.teleport": "Teleport",
+  "item.examplemod.magmaarrowtest" : "Arrow Shooter",
+  "item.examplemod.gunitem": "Gun"
+}

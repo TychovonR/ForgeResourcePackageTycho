@@ -1,0 +1,11 @@
+
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/creeper"
+    }
+  ],
+  "addition": "minecraft:tnt",
+  "type": "examplemod:tnt_from_creeper"
+}
