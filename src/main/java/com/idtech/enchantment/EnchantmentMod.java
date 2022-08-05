@@ -9,6 +9,7 @@ public class EnchantmentMod {
     public static void registerEnchantments(RegistryEvent.Register<Enchantment> event) {
         event.getRegistry().register(TeleportEnchantment.INSTANCE);
         event.getRegistry().register(omaewamouenchant.INSTANCE);
+        event.getRegistry().register(glowEnchant.INSTANCE);
     }
 
 }
