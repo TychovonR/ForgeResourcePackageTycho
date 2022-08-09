@@ -23,6 +23,7 @@ public class ItemMod {
         event.getRegistry().register(TestItem.TEST_ITEM);
         event.getRegistry().register(MagmaArrowTest.ARROW_TEST);
         event.getRegistry().register(gunItem.GUN_ITEM);
+        event.getRegistry().register(deathItem.DEATH_ITEM);
 
         // ITEMS
 

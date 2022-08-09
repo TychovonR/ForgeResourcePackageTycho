@@ -4,5 +4,6 @@
   "item.examplemod.testitem": "Test Item",
   "enchantment.examplemod.teleport": "Teleport",
   "item.examplemod.magmaarrowtest" : "Arrow Shooter",
-  "item.examplemod.gunitem": "Gun"
+  "item.examplemod.gunitem": "Gun",
+  "item.examplemod.scp_egg": "SCP-173 Spawn Egg"
 }
