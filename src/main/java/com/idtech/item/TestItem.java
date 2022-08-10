@@ -1,6 +1,7 @@
 package com.idtech.item;
 
 import com.idtech.Utils;
+import com.idtech.entity.custom.TestEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.*;
@@ -43,12 +44,15 @@ public class TestItem extends Item {
     public InteractionResultHolder<ItemStack> use(Level level, Player playerIn, InteractionHand handIn) {
         //get the held item for return
         ItemStack itemstack = playerIn.getItemInHand(handIn);
+        TestEntity test = new TestEntity(TestEntity.TYPE,level);
 
 
         //find the location at the cursor
         BlockPos location = Utils.getBlockAtCursor(playerIn, 200.0d, true);
         BlockPos playerLocation = playerIn.getOnPos();
-
+        if(location!= null) {
+            Utils.spawnEntity(level, test, location);
+        }
         //decide the size of the explosion
         float explosionRadius = 1.0f;
         Giant giant = new Giant(EntityType.GIANT, level);

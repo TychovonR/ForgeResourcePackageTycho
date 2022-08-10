@@ -54,23 +54,10 @@ public class SCPEntity extends Zombie {
                 .add(Attributes.FOLLOW_RANGE, 35.0D)
                 .add(Attributes.MOVEMENT_SPEED, (double)0.23F)
                 .add(Attributes.ATTACK_DAMAGE, 3.0D)
-                .add(Attributes.ARMOR, 2.0D);
-    }
-
-    @Override
-    public boolean isInvisibleTo(Player p_20178_) {
-        return super.isInvisibleTo(p_20178_);
-    }
-
-    @Nullable
-    @Override
-    public AttributeInstance getAttribute(Attribute attribute) {
-        if (attribute != null){
-            return super.getAttribute(attribute);
-        }else {
-            return super.getAttribute(Attributes.ATTACK_DAMAGE);
-        }
-
+                .add(Attributes.ARMOR, 2.0D)
+                .add(Attributes.SPAWN_REINFORCEMENTS_CHANCE, .4D)
+                .add(Attributes.KNOCKBACK_RESISTANCE,10D)
+                .add(Attributes.MAX_HEALTH,10D);
     }
 
     @Override
