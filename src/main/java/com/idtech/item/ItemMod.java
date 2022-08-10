@@ -1,10 +1,12 @@
 package com.idtech.item;
 
+import com.idtech.world.dimension.ModDimension;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+
 
 @Mod.EventBusSubscriber
 public class ItemMod {
