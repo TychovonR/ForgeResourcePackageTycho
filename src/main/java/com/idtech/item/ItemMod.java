@@ -1,5 +1,6 @@
 package com.idtech.item;
 
+import com.idtech.block.BackroomsPortalBlock;
 import com.idtech.world.dimension.ModDimension;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -26,6 +27,7 @@ public class ItemMod {
         event.getRegistry().register(MagmaArrowTest.ARROW_TEST);
         event.getRegistry().register(gunItem.GUN_ITEM);
         event.getRegistry().register(deathItem.DEATH_ITEM);
+        event.getRegistry().register(BackroomsPortalBlock.ITEM);
 
         // ITEMS
 

@@ -47,7 +47,7 @@ public class BaseMod {
 
     // Change your modid here. Whenever modid is needed, use BaseMod.MODID
     public static final String MODID = "examplemod";
-    private static final Logger LOGGER = LogManager.getLogger(BaseMod.MODID);
+    public static final Logger LOGGER = LogManager.getLogger(BaseMod.MODID);
 
     public BaseMod() {
         // Register the setup method for modloading

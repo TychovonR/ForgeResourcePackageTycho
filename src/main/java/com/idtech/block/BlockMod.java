@@ -1,6 +1,5 @@
 package com.idtech.block;
 
-
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -32,6 +31,7 @@ public class BlockMod {
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
 
         event.getRegistry().register(CASTLE_WALL);
+        event.getRegistry().register(BackroomsPortalBlock.INSTANCE);
 
 
     }
