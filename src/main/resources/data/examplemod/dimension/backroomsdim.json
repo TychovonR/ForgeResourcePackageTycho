@@ -8,19 +8,27 @@
       "features": false,
       "layers": [
         {
-          "block": "minecraft:stone",
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:yellow_carpet",
           "height": 1
         },
         {
           "block": "minecraft:air",
-          "height": 5
+          "height": 3
         },
         {
-          "block": "minecraft:stone",
+          "block": "minecraft:yellow_stained_glass",
           "height": 1
         },
         {
-          "block": "minecraft:stone",
+          "block": "minecraft:glowstone",
+          "height": 1
+        },
+        {
+          "block": "minecraft:bedrock",
           "height": 1
         }
       ],
